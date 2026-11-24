@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.*;
 @Controller
 public class UserController {
 
+String name="gk";
+
     @Autowired
     private UserService userService;
 
